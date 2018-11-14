@@ -10,5 +10,8 @@ Build your image:
 Run your container:
 `docker run -p 8080:3001 -d openhack/node-web-app:1.0`
 
+Open the browser to see the metrics:
+http://localhost:8080/metrics
+
 The json exposed queries **mcapi.us**, as you can check on line 8:
 `http://mcapi.us/server/status?ip=52.147.29.192`
